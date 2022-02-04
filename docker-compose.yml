@@ -1,0 +1,8 @@
+services:
+  go:
+    build:
+      context: docker
+    volumes:
+      - .:/app
+      - ~/.ssh:/root/.ssh
+
